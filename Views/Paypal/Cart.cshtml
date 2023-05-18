@@ -1,0 +1,230 @@
+﻿
+@{
+    ViewData["Title"] = "Cart";
+}
+
+<!-- ============================================-->
+<!-- <section> begin ============================-->
+<section class="pt-5 pb-9">
+    <div class="container-small">
+        <nav class="mb-2" aria-label="breadcrumb">
+            <ol class="breadcrumb mb-0">
+                <li class="breadcrumb-item"><a href="#!">Page 1</a></li>
+                <li class="breadcrumb-item"><a href="#!">Page 2</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Default</li>
+            </ol>
+        </nav>
+        <h2 class="mb-5">Check out</h2>
+        <div class="row justify-content-between">
+            <div class="col-lg-7 col-xl-7">
+                <form>
+                    <div class="d-flex align-items-end">
+                        <h3 class="mb-0 me-3">Shipping Details</h3><button class="btn btn-link p-0" type="button">Edit</button>
+                    </div>
+                    <table class="table table-borderless mt-4">
+                        <tbody>
+                            <tr>
+                                <td class="py-2 ps-0">
+                                    <div class="d-flex">
+                                        <span class="fs-5 me-2" data-feather="pen" style="height:16px; width:16px;"> </span>
+                                        <h5 class="lh-sm me-4">Invoice Number</h5>
+                                    </div>
+                                </td>
+                                <td class="py-2 fw-bold lh-sm">:</td>
+                                <td class="py-2 px-3">
+                                    <h5 class="lh-sm fw-normal text-800">INV073922</h5>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="py-2 ps-0">
+                                    <div class="d-flex">
+                                        <span class="fs-5 me-2" data-feather="user" style="height:16px; width:16px;"> </span>
+                                        <h5 class="lh-sm me-4">Name</h5>
+                                    </div>
+                                </td>
+                                <td class="py-2 fw-bold lh-sm">:</td>
+                                <td class="py-2 px-3">
+                                    <h5 class="lh-sm fw-normal text-800">Paul Smith</h5>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="py-2 ps-0">
+                                    <div class="d-flex">
+                                        <span class="fs-5 me-2" data-feather="home" style="height:16px; width:16px;"> </span>
+                                        <h5 class="lh-sm me-4">Address</h5>
+                                    </div>
+                                </td>
+                                <td class="py-2 fw-bold lh-sm">:</td>
+                                <td class="py-2 px-3">
+                                    <h5 class="lh-lg fw-normal text-800">Apt: 6/B, 192 Edsel Road, Van Nuys <br> California, USA 96580</h5>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="py-2 ps-0">
+                                    <div class="d-flex">
+                                        <span class="fs-5 me-2" data-feather="phone" style="height:16px; width:16px;"> </span>
+                                        <h5 class="lh-sm me-4">Phone</h5>
+                                    </div>
+                                </td>
+                                <td class="py-2 fw-bold lh-sm">: </td>
+                                <td class="py-2 px-3">
+                                    <h5 class="lh-sm fw-normal text-800">01218442829</h5>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+               
+                    <hr class="my-6">
+                    <h3 class="mb-5">Payment Method</h3>
+                    <div class="row g-4 mb-7">
+                        <div class="col-12">
+                            <div class="row gx-lg-11">
+                                <div class="text-center">
+                                    <div id="paypal-button-container"></div>
+                                </div>
+                            </div>
+                        </div>
+                       
+                       
+                       
+                    </div>
+                    
+                </form>
+            </div>
+            <div class="col-lg-5 col-xl-4">
+                <div class="card mt-3 mt-lg-0">
+                    <div class="card-body">
+                        <div class="d-flex align-items-center justify-content-between">
+                            <h3 class="mb-0">Summary</h3><button class="btn btn-link pe-0" type="button">Edit cart</button>
+                        </div>
+                        <div class="border-dashed border-bottom mt-4">
+                            <div class="mx-n2">
+                                <div class="row align-items-center mb-2 g-3">
+                                    <div class="col-8 col-md-7 col-lg-8">
+                                        <div class="d-flex align-items-center">
+                                            <img class="me-2 ms-1" src="../../../assets/img/products/IMG_3246.JPG" width="40" alt="" />
+                                            <h6 class="fw-semi-bold text-1000 lh-base">Coca Cola Original soft drink 330ml... </h6>
+                                        </div>
+                                    </div>
+                                    <div class="col-2 col-md-3 col-lg-2">
+                                        <h6 class="fs--2 mb-0">x1</h6>
+                                    </div>
+                                    <div class="col-2 ps-0">
+                                        <h5 class="mb-0 fw-semi-bold text-end text-lg-start">$42</h5>
+                                    </div>
+                                </div>
+                                <div class="row align-items-center mb-2 g-3">
+                                    <div class="col-8 col-md-7 col-lg-8">
+                                        <div class="d-flex align-items-center">
+                                            <img class="me-2 ms-1" src="../../../assets/img/products/IMG_3248.PNG" width="40" alt="" />
+                                            <h6 class="fw-semi-bold text-1000 lh-base">Pizza Blanket 47" Round Burritos Rortilla Blankets Soft... </h6>
+                                        </div>
+                                    </div>
+                                    <div class="col-2 col-md-3 col-lg-2">
+                                        <h6 class="fs--2 mb-0">x1</h6>
+                                    </div>
+                                    <div class="col-2 ps-0">
+                                        <h5 class="mb-0 fw-semi-bold text-end text-lg-start">$58</h5>
+                                    </div>
+                                </div>
+                               @* <div class="row align-items-center mb-5 g-3">
+                                    <div class="col-8 col-md-7 col-lg-8">
+                                        <div class="d-flex align-items-center">
+                                            <img class="me-2 ms-1" src="../../../assets/img/products/3.png" width="40" alt="" />
+                                            <h6 class="fw-semi-bold text-1000 lh-base">Apple MacBook Pro 13 inch-M1-8/256GB</h6>
+                                        </div>
+                                    </div>
+                                    <div class="col-2 col-md-3 col-lg-2">
+                                        <h6 class="fs--2 mb-0">x1</h6>
+                                    </div>
+                                    <div class="col-2 ps-0">
+                                        <h5 class="mb-0 fw-semi-bold text-end text-lg-start">$65</h5>
+                                    </div>
+                                </div>*@
+                            </div>
+                        </div>
+                        <div class="border-dashed border-bottom mt-4">
+                            <div class="d-flex justify-content-between mb-2">
+                                <h5 class="text-900 fw-semi-bold">Items subtotal: </h5>
+                                <h5 class="text-900 fw-semi-bold">$100</h5>
+                            </div>
+                            <div class="d-flex justify-content-between mb-2">
+                                <h5 class="text-900 fw-semi-bold">Discount: </h5>
+                                <h5 class="text-danger fw-semi-bold">-$21</h5>
+                            </div>
+                            <div class="d-flex justify-content-between mb-2">
+                                <h5 class="text-900 fw-semi-bold">Tax: </h5>
+                                <h5 class="text-900 fw-semi-bold">$15</h5>
+                            </div>
+                            <div class="d-flex justify-content-between mb-2">
+                                <h5 class="text-900 fw-semi-bold">Subtotal </h5>
+                                <h5 class="text-900 fw-semi-bold">$94</h5>
+                            </div>
+                            <div class="d-flex justify-content-between mb-3">
+                                <h5 class="text-900 fw-semi-bold">Shipping Cost </h5>
+                                <h5 class="text-900 fw-semi-bold">$6 </h5>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-between border-dashed-y pt-3">
+                            <h4 class="mb-0">Total :</h4>
+                            <h4 class="mb-0">$100</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><!-- end of .container-->
+</section><!-- <section> close ============================-->
+<!-- ============================================-->
+@section Scripts {
+    <script src="https://www.paypal.com/sdk/js?client-id=@ViewBag.ClientId"></script>
+
+    <script>
+        paypal.Buttons({
+            style: {
+                layout: 'vertical',
+                color: 'silver',
+                tagline: 'false'
+            },
+            createOrder: (data, actions) => {
+                // Set the invoice ID and item information
+                const payload = {
+                    invoiceId: "INV073922",
+                    price: "100.00",
+                    currency: "USD",
+                    item: "YOUR_ITEM_DESCRIPTION"
+                };
+                return fetch("@Url.Action("Order")", {
+                    method: "post",
+                    body: JSON.stringify(payload), // Convert the payload to JSON and send it in the request body
+                    headers: {
+                        'Content-Type': 'application/json'
+                    }
+                }).then((response) => {
+                    if (!response.ok) {
+                        return response.json().then(error => { throw error; });
+                    }
+
+                    return response.json();
+                }).then((order) => order.id)
+                    .catch(error => alert(error.message));
+            },
+            onApprove: (data, actions) => {
+                return fetch(`@Url.Action("Capture")?orderId=${data.orderID}`, {
+                    method: "post",
+                }).then((response) => {
+                    if (!response.ok) {
+                        return response.json().then(error => { throw error; });
+                    }
+                    return response.json();
+                   
+                }).then((details) => {
+                   // alert('Transaction completed by: ' + details.payer.name.given_name + ' ' + details.payer.name.surname);
+                    window.location.href = `@Url.Action("Success")?transactionId=${details.id}`;
+
+                }).catch(error => alert(error.message));
+            }
+        }).render('#paypal-button-container');
+    </script>
+}
+
